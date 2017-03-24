@@ -1,5 +1,6 @@
 //Zac Sundre
 
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -28,6 +29,7 @@ int main() {
    }
 
    printf("\nTotal interest paid: %0.2f \n", I2); 
+   
    return (0);
 }
 
