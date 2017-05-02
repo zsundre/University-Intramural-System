@@ -112,6 +112,21 @@ class CreateAccount extends JPanel
                 jPasswordField1ActionPerformed(evt);
             }
         });
+        
+        submitBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                String fName = fNameText.getText();
+                String mInt = mIntText.getText();
+                String lName = lNameText.getText();
+                int studentID = Integer.parseInt(studentIdText.getText());
+                String gender = genderText.getText();
+                String phNumber = phNumberText.getText();
+                String userName = userNameText.getText();
+                String password = passwordText.getText();
+                String confirmPassword = confirmPasswordText.getText();
+            }
+        });
+
 
         submitBtn.setText("Submit");
 
